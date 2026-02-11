@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Earchive of the Alternate Present</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <button id="help-toggle" class="help-toggle" type="button" aria-label="Show help tips">HELP</button>
+    <button id="info-toggle" class="info-toggle" type="button" aria-label="Show site info">INFO</button>
+    <div id="help-bubbles" class="help-bubbles is-hidden" aria-live="polite">
+        <div class="help-bubble help-bubble--audio">
+            <strong>Step 1</strong><br>Click “Enable Audio” to turn on the sound in your browser.
+        </div>
+        <div class="help-bubble help-bubble--load">
+            <strong>Step 2</strong><br>Load a MIDI file from your computer or pick an included one.
+        </div>
+        <div class="help-bubble help-bubble--controls">
+            <strong>Step 3</strong><br>Press Play, then experiment with Tempo, Tunings, Modalities, and Instruments.
+        </div>
+        <div class="help-bubble help-bubble--record">
+            <strong>Step 4</strong><br>When you are finished adjusting, press “Ready to Record”. Choose your file name and destination. The system will play once through the song as you have it (you can still tweak during recording) and save it when finished.
+        </div>
+        <div class="help-bubble help-bubble--sources">
+            <strong>Where to Find MIDI</strong><br>You can find MIDI song files on the web for just about anything. Try <a href="https://www.freemidi.org" target="_blank" rel="noreferrer">freemidi.org</a> or <a href="https://www.midiworld.com" target="_blank" rel="noreferrer">midiworld.com</a>.
+        </div>
+        <button id="help-dismiss" class="help-dismiss" type="button">Got it</button>
+    </div>
+    <div id="info-bubbles" class="info-bubbles is-hidden" aria-live="polite">
+        <div class="info-bubble">
+            <strong>About</strong><br>This project is an exploration into what the music we know might have sounded like if things had been every so slightly or vastly different.
+        </div>
+        <div class="info-bubble">
+            <strong>Roadmap</strong><br>We are working on expanding the Earchive to an interactive music production and streaming radio station where you can show off your variations and rate others’ sonification of the alternate present. Keep an eye on the Earchive for Update news!
+        </div>
+        <div class="info-bubble">
+            <strong>Credits</strong><br>Based on Fluidsynth (<a href="https://www.fluidsynth.org" target="_blank" rel="noreferrer">www.fluidsynth.org</a>) using scala files from <a href="https://www.huygens-fokker.org" target="_blank" rel="noreferrer">www.huygens-fokker.org</a>.
+        </div>
+        <div class="info-bubble">
+            <strong>Contact</strong><br>Comments or Questions? <a href="#" id="contact-link">Contact John Kerosene</a>.
+        </div>
+        <button id="info-dismiss" class="info-dismiss" type="button">Close</button>
+    </div>
+    <div class="app-shell">
+        <header class="hero">
+            <h1>Earchive of the Alternate Present</h1>
+            <div class="start-panel panel">
+                <div class="start-actions">
+                    <button id="enable-audio" class="enable-audio" aria-pressed="false" aria-label="Enable audio">
+                        <span class="enable-audio__icon" aria-hidden="true"></span>
+                        <span class="enable-audio__text">Enable Audio</span>
+                    </button>
+                    <label id="load-button" class="load-button is-disabled" for="midi-input" aria-disabled="true">
+                        <span>Load MIDI File</span>
+                        <input type="file" id="midi-input" accept=".mid,.midi" disabled>
+                    </label>
+                    <button id="load-sample" class="load-button secondary is-disabled" type="button" aria-disabled="true">
+                        Load Included MIDI
+                    </button>
+                </div>
+                <div class="status-box">
+                    <div class="status-text" id="status">Choose a MIDI file to begin.</div>
+                    <div class="status-progress">
+                        <div class="status-progress__bar" id="status-progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="help-bubbles" class="help-bubbles is-hidden" aria-live="polite">
+                <div class="help-bubble help-bubble--audio">
+                    <strong>Step 1</strong><br>Click “Enable Audio” to unlock the app.
+                </div>
+                <div class="help-bubble help-bubble--load">
+                    <strong>Step 2</strong><br>Load your MIDI or pick an included one.
+                </div>
+                <div class="help-bubble help-bubble--controls">
+                    <strong>Step 3</strong><br>Press Play, tweak instruments/tempo even while recording.
+                </div>
+                <button id="help-dismiss" class="help-dismiss" type="button">Got it</button>
+            </div>
+        </header>
+
+        <div id="sample-modal" class="modal is-hidden" role="dialog" aria-modal="true" aria-labelledby="sample-modal-title">
+            <div class="modal__backdrop"></div>
+            <div class="modal__content">
+                <h3 id="sample-modal-title">Load Included MIDI</h3>
+                <label class="modal__label" for="sample-folder-select">Choose a folder</label>
+                <select id="sample-folder-select" class="sample-select" aria-label="Choose a folder for included MIDI files"></select>
+                <label class="modal__label" for="sample-midi-select">Choose a file</label>
+                <select id="sample-midi-select" class="sample-select" aria-label="Choose an included MIDI file"></select>
+                <div class="modal__actions">
+                    <button id="sample-cancel" type="button" class="modal__button ghost">Cancel</button>
+                    <button id="sample-choose" type="button" class="modal__button primary">Load</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="panel is-hidden" id="song-panel" aria-live="polite">
+            <h2>Song Data</h2>
+            <div id="song-title" class="song-title" aria-live="polite"></div>
+            <textarea id="song-display" rows="10" readonly></textarea>
+        </section>
+
+        <section class="panel controls is-hidden" id="controls-panel" aria-label="Transport controls">
+            <h2>Transport</h2>
+            <div class="controls__buttons">
+                <button id="play" type="button" disabled>Play</button>
+                <button id="stop" type="button" disabled>Stop</button>
+                <button id="pause" type="button" disabled>Pause</button>
+            </div>
+            <div class="transport__progress">
+                <input id="progress" type="range" min="0" max="0" step="0.01" value="0">
+                <div class="controls__time" id="progress-time">0:00 / 0:00</div>
+            </div>
+            <label class="loop-toggle">
+                <input type="checkbox" id="loop-toggle">
+                Loop
+            </label>
+            <button id="record" type="button" class="record-button" disabled>Ready to Record</button>
+            <label class="record-option">
+                <input type="checkbox" id="record-compressed" checked>
+                Save smaller compressed copy when recording
+            </label>
+            <div class="tempo-control">
+                <label for="tempo-slider">Tempo</label>
+                <input id="tempo-slider" type="range" min="40" max="240" step="1" value="120" disabled>
+                <div class="tempo-control__value" id="tempo-value">120 BPM</div>
+                <button id="tempo-reset" type="button" class="tempo-reset" disabled>Reset Tempo</button>
+            </div>
+            <div class="tuning-control">
+                <label for="tuning-select">Tuning</label>
+                <select id="tuning-folder-select" class="sample-select" disabled>
+                    <option value="__all__">All folders</option>
+                </select>
+                <select id="tuning-select" disabled>
+                    <option value="__equal__" selected>12-TET (Default)</option>
+                </select>
+                <div class="tuning-status" id="tuning-status">Loading tunings…</div>
+                <button id="tuning-reset" type="button" class="tuning-reset" disabled>Reset Tuning</button>
+                <button id="tuning-source-toggle" type="button" class="tuning-reset" aria-pressed="false">
+                    Switch to Full Archive
+                </button>
+            </div>
+            <div class="scale-controls">
+                <div class="mode-control">
+                    <label for="mode-select">Mode</label>
+                    <select id="mode-select" disabled>
+                        <option value="Ionian">Ionian</option>
+                        <option value="Dorian">Dorian</option>
+                        <option value="Phrygian">Phrygian</option>
+                        <option value="Lydian">Lydian</option>
+                        <option value="Mixolydian">Mixolydian</option>
+                        <option value="Aeolian">Aeolian</option>
+                        <option value="Locrian">Locrian</option>
+                    </select>
+                    <div class="mode-status" id="mode-status">Mode: Ionian</div>
+                </div>
+                <div class="transpose-control">
+                    <label for="transpose-input">Transpose</label>
+                    <div class="transpose-input">
+                        <button type="button" id="transpose-decrement" aria-label="Lower transpose" disabled>–</button>
+                        <input type="number" id="transpose-input" value="0" min="-24" max="24" step="1" disabled>
+                        <button type="button" id="transpose-increment" aria-label="Raise transpose" disabled>+</button>
+                    </div>
+                    <div class="transpose-status" id="transpose-status">0 semitones</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel is-hidden" id="instrument-panel">
+            <h2>Track Instruments</h2>
+            <div id="instrument-menus" class="instrument-grid"></div>
+        </section>
+
+    </div>
+
+    <div id="contact-modal" class="modal is-hidden" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content contact-modal__content">
+            <h3 id="contact-modal-title">Contact</h3>
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xyzrevyz" method="POST">
+                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+                <div class="contact-row">
+                    <label>
+                        Name
+                        <input type="text" id="contact-name" name="name" placeholder="Your name">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" id="contact-email" name="email" placeholder="you@example.com">
+                    </label>
+                </div>
+                <label class="contact-message">
+                    Message
+                    <textarea id="contact-message" name="message" rows="4" placeholder="How can we help?"></textarea>
+                </label>
+                <div class="modal__actions">
+                    <button type="button" id="contact-cancel" class="modal__button ghost">Cancel</button>
+                    <button type="submit" class="modal__button primary">Send Message</button>
+                </div>
+                <div id="contact-status" class="contact-status" aria-live="polite"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/vendor/tonejs/Midi.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

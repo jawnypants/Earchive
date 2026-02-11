@@ -1,0 +1,10 @@
+{
+  "fluidsynthBaseUrl": "assets/fluidsynth/",
+  "soundfontBaseUrl": "assets/soundfonts/",
+  "midiBaseUrl": "assets/midi/",
+  "sampleMidiManifestUrl": "assets/midi/manifest.json",
+  "scalaLiteBaseUrl": "assets/ScalaLite/",
+  "scalaFullBaseUrl": "assets/Scala Archive/",
+  "scalaLiteManifestUrl": "assets/scala-lite-manifest.json",
+  "scalaFullManifestUrl": "assets/scala-manifest.json"
+}

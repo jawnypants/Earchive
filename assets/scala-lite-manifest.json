@@ -1,0 +1,487 @@
+[
+  {
+    "name": "Dekany_1_3_5_11_13",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_5_11_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_5_7_11",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_5_7_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_5_7_13",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_5_7_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_5_7_9",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_5_7_9.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_5_9_11",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_5_9_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_5_9_13",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_5_9_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_7_9_11",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_7_9_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_3_9_11_13",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_3_9_11_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_5_7_9_11",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_5_7_9_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Dekany_1_7_9_11_13",
+    "path": "assets/ScalaLite/Eikosany/Dekany_1_7_9_11_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Eikosany_1_3_5_7_9_11",
+    "path": "assets/ScalaLite/Eikosany/Eikosany_1_3_5_7_9_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_11_13",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_11_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_5_11",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_5_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_5_13",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_5_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_5_7",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_5_7.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_5_9",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_5_9.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_7_11",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_7_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_7_13",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_7_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_7_9",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_7_9.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_9_11",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_9_11.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "Hexany_1_3_9_13",
+    "path": "assets/ScalaLite/Eikosany/Hexany_1_3_9_13.scl",
+    "folder": "Eikosany"
+  },
+  {
+    "name": "12-TET",
+    "path": "assets/ScalaLite/Equal_Temperaments/12-TET.scl",
+    "folder": "Equal Temperaments"
+  },
+  {
+    "name": "19-TET",
+    "path": "assets/ScalaLite/Equal_Temperaments/19-TET.scl",
+    "folder": "Equal Temperaments"
+  },
+  {
+    "name": "31-TET",
+    "path": "assets/ScalaLite/Equal_Temperaments/31-TET.scl",
+    "folder": "Equal Temperaments"
+  },
+  {
+    "name": "5-Limit_Just_Major",
+    "path": "assets/ScalaLite/Just_Variants/5-Limit_Just_Major.scl",
+    "folder": "Just Variants"
+  },
+  {
+    "name": "Pythagorean",
+    "path": "assets/ScalaLite/Just_Variants/Pythagorean.scl",
+    "folder": "Just Variants"
+  },
+  {
+    "name": "1-4-Comma_Meantone",
+    "path": "assets/ScalaLite/Meantone/1-4-Comma_Meantone.scl",
+    "folder": "Meantone"
+  },
+  {
+    "name": "Quarter-Comma_Meantone",
+    "path": "assets/ScalaLite/Meantone/Quarter-Comma_Meantone.scl",
+    "folder": "Meantone"
+  },
+  {
+    "name": "10_ED3",
+    "path": "assets/ScalaLite/No_Octaves/10_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "10_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/10_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "11_ED3",
+    "path": "assets/ScalaLite/No_Octaves/11_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "11_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/11_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "12_ED3",
+    "path": "assets/ScalaLite/No_Octaves/12_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "12_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/12_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "14_ED3",
+    "path": "assets/ScalaLite/No_Octaves/14_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "15_ED3",
+    "path": "assets/ScalaLite/No_Octaves/15_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "16_ED3",
+    "path": "assets/ScalaLite/No_Octaves/16_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "17_ED3",
+    "path": "assets/ScalaLite/No_Octaves/17_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "18_ED3",
+    "path": "assets/ScalaLite/No_Octaves/18_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "19_ED3_(12_TET_Stretched)",
+    "path": "assets/ScalaLite/No_Octaves/19_ED3_(12_TET_Stretched).scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "4_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/4_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "5_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/5_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "65_CET",
+    "path": "assets/ScalaLite/No_Octaves/65_CET.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "6_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/6_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "7_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/7_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "88_CET",
+    "path": "assets/ScalaLite/No_Octaves/88_CET.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "8_ED3",
+    "path": "assets/ScalaLite/No_Octaves/8_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "8_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/8_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "9_ED3",
+    "path": "assets/ScalaLite/No_Octaves/9_ED3.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "9_EDphi",
+    "path": "assets/ScalaLite/No_Octaves/9_EDphi.scl",
+    "folder": "No Octaves"
+  },
+  {
+    "name": "11_TET_Machine[6]_2_2_1_2_2_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/11_TET_Machine[6]_2_2_1_2_2_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "13_TET_Father[8]_2_2_1_2_2_1_2_1",
+    "path": "assets/ScalaLite/Regular_Temperaments/13_TET_Father[8]_2_2_1_2_2_1_2_1.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "15_TET_Blackwood[10]_2_1_2_1_2_1_2_1_2_1",
+    "path": "assets/ScalaLite/Regular_Temperaments/15_TET_Blackwood[10]_2_1_2_1_2_1_2_1_2_1.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "16_TET_Mavila[7]_2_2_3_2_2_2_3",
+    "path": "assets/ScalaLite/Regular_Temperaments/16_TET_Mavila[7]_2_2_3_2_2_2_3.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "16_TET_Mavila[9]_1_2_2_2_1_2_2_2_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/16_TET_Mavila[9]_1_2_2_2_1_2_2_2_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "17_TET_Superpyth[12]_1_1_2_1_2_1_1_2_1_2_1_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/17_TET_Superpyth[12]_1_1_2_1_2_1_1_2_1_2_1_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "202_TET_oktone_20_39_6_39_14_39_6_39",
+    "path": "assets/ScalaLite/Regular_Temperaments/202_TET_oktone_20_39_6_39_14_39_6_39.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "22_TET_Orwell[9]_2_3_2_3_2_3_2_3_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/22_TET_Orwell[9]_2_3_2_3_2_3_2_3_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "22_TET_Pajara[10]_Static_Symmetrical_Maj_2_2_3_2_2_2_2_3_2_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/22_TET_Pajara[10]_Static_Symmetrical_Maj_2_2_3_2_2_2_2_3_2_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "22_TET_Pajara[10]_Std_Pentachordal_Maj_2_2_3_2_2_2_3_2_2_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/22_TET_Pajara[10]_Std_Pentachordal_Maj_2_2_3_2_2_2_3_2_2_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "22_TET_Porcupine[7]_3_3_3_4_3_3_3",
+    "path": "assets/ScalaLite/Regular_Temperaments/22_TET_Porcupine[7]_3_3_3_4_3_3_3.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "26_TET_Flattone[12]_1_3_1_3_3_1_3_1_3_1_3_3",
+    "path": "assets/ScalaLite/Regular_Temperaments/26_TET_Flattone[12]_1_3_1_3_3_1_3_1_3_1_3_3.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "26_TET_Lemba[10]_3_2_3_2_3_3_2_3_2_3",
+    "path": "assets/ScalaLite/Regular_Temperaments/26_TET_Lemba[10]_3_2_3_2_3_3_2_3_2_3.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "313_TET_Barbados[9]_53_12_53_12_53_12_53_12_53",
+    "path": "assets/ScalaLite/Regular_Temperaments/313_TET_Barbados[9]_53_12_53_12_53_12_53_12_53.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "31_TET_Meantone[19]_1_2_1_2_2_1_2_2_1_2_1_2_2_1_2_2_1_2_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/31_TET_Meantone[19]_1_2_1_2_2_1_2_2_1_2_1_2_2_1_2_2_1_2_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "46_TET_Sensi[11]_5_5_5_2_5_5_5_2_5_5_2",
+    "path": "assets/ScalaLite/Regular_Temperaments/46_TET_Sensi[11]_5_5_5_2_5_5_5_2_5_5_2.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "53_TET_Orwell[9]_5_7_5_7_5_7_5_7_5",
+    "path": "assets/ScalaLite/Regular_Temperaments/53_TET_Orwell[9]_5_7_5_7_5_7_5_7_5.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "72_TET_12-Adams_12_4_7_3_4_3_9_11_5_5_2_7",
+    "path": "assets/ScalaLite/Regular_Temperaments/72_TET_12-Adams_12_4_7_3_4_3_9_11_5_5_2_7.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "99_TET_zeus7tri_13_19_13_13_19_13_9",
+    "path": "assets/ScalaLite/Regular_Temperaments/99_TET_zeus7tri_13_19_13_13_19_13_9.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "TOP_Parapyth12",
+    "path": "assets/ScalaLite/Regular_Temperaments/TOP_Parapyth12.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "glummamarvwoo",
+    "path": "assets/ScalaLite/Regular_Temperaments/glummamarvwoo.scl",
+    "folder": "Regular Temperaments"
+  },
+  {
+    "name": "Ancient_Greek_Archytas_Diatonic",
+    "path": "assets/ScalaLite/World_Scales/Ancient_Greek_Archytas_Diatonic.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Ancient_Greek_Archytas_Enharmonic",
+    "path": "assets/ScalaLite/World_Scales/Ancient_Greek_Archytas_Enharmonic.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Ancient_Greek_Didymus_Chromatic",
+    "path": "assets/ScalaLite/World_Scales/Ancient_Greek_Didymus_Chromatic.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Ancient_Greek_Ptolemy_Diatonic_Ditoniaion",
+    "path": "assets/ScalaLite/World_Scales/Ancient_Greek_Ptolemy_Diatonic_Ditoniaion.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Ancient_Greek_Ptolemy_Diatonic_Hemiolion",
+    "path": "assets/ScalaLite/World_Scales/Ancient_Greek_Ptolemy_Diatonic_Hemiolion.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Bulgarian_Bagpipe",
+    "path": "assets/ScalaLite/World_Scales/Bulgarian_Bagpipe.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Chopi_Xylophone",
+    "path": "assets/ScalaLite/World_Scales/Chopi_Xylophone.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indian_Raga_Bageshri",
+    "path": "assets/ScalaLite/World_Scales/Indian_Raga_Bageshri.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indian_Raga_Bhairavi",
+    "path": "assets/ScalaLite/World_Scales/Indian_Raga_Bhairavi.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indian_Raga_Kafi",
+    "path": "assets/ScalaLite/World_Scales/Indian_Raga_Kafi.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indian_Raga_Todi",
+    "path": "assets/ScalaLite/World_Scales/Indian_Raga_Todi.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indian_Raga_Yaman",
+    "path": "assets/ScalaLite/World_Scales/Indian_Raga_Yaman.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indian_Shrutis",
+    "path": "assets/ScalaLite/World_Scales/Indian_Shrutis.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indonesian_Pelog",
+    "path": "assets/ScalaLite/World_Scales/Indonesian_Pelog.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Indonesian_Slendro",
+    "path": "assets/ScalaLite/World_Scales/Indonesian_Slendro.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Japanese_Hirajoshi",
+    "path": "assets/ScalaLite/World_Scales/Japanese_Hirajoshi.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Macedonian_Bagpipe",
+    "path": "assets/ScalaLite/World_Scales/Macedonian_Bagpipe.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Maqam_Buselik",
+    "path": "assets/ScalaLite/World_Scales/Maqam_Buselik.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Maqam_Hijaz",
+    "path": "assets/ScalaLite/World_Scales/Maqam_Hijaz.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Maqam_Rast",
+    "path": "assets/ScalaLite/World_Scales/Maqam_Rast.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Maqam_Saba",
+    "path": "assets/ScalaLite/World_Scales/Maqam_Saba.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Scottish_Bagpipe",
+    "path": "assets/ScalaLite/World_Scales/Scottish_Bagpipe.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Thai_Ranat",
+    "path": "assets/ScalaLite/World_Scales/Thai_Ranat.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Well-temperament_Werckmeister_III",
+    "path": "assets/ScalaLite/World_Scales/Well-temperament_Werckmeister_III.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Well-temperament_Young",
+    "path": "assets/ScalaLite/World_Scales/Well-temperament_Young.scl",
+    "folder": "World Scales"
+  },
+  {
+    "name": "Zimbabwe_Mbira",
+    "path": "assets/ScalaLite/World_Scales/Zimbabwe_Mbira.scl",
+    "folder": "World Scales"
+  }
+]
