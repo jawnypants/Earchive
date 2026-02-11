@@ -1,10 +1,10 @@
 {
   "fluidsynthBaseUrl": "assets/fluidsynth/",
-  "soundfontBaseUrl": "assets/soundfonts/",
-  "midiBaseUrl": "assets/midi/",
-  "sampleMidiManifestUrl": "assets/midi/manifest.json",
-  "scalaLiteBaseUrl": "assets/ScalaLite/",
-  "scalaFullBaseUrl": "assets/Scala Archive/",
-  "scalaLiteManifestUrl": "assets/scala-lite-manifest.json",
-  "scalaFullManifestUrl": "assets/scala-manifest.json"
+  "soundfontBaseUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/soundfonts/",
+  "midiBaseUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/midi/",
+  "sampleMidiManifestUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/midi/manifest.json",
+  "scalaLiteBaseUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/ScalaLite/",
+  "scalaFullBaseUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/Scala Archive/",
+  "scalaLiteManifestUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/scala-lite-manifest.json",
+  "scalaFullManifestUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/scala-manifest.json"
 }
