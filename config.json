@@ -1,5 +1,5 @@
 {
-  "fluidsynthBaseUrl": "assets/fluidsynth/",
+  "fluidsynthBaseUrl": "https://pub-112322b050ec435fa1930c3330159a6a.r2.dev/",
   "soundfontBaseUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/soundfonts/",
   "midiBaseUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/midi/",
   "sampleMidiManifestUrl": "https://jawnypants.github.io/MidiTuningAssets/assets/midi/manifest.json",
